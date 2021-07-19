@@ -18,6 +18,7 @@
   "dependencies": {
     "vue-select": "^3.11.2"
   },
+  "keywords": ["vue-select","vue","vue select date","vue select date picker","vue date picker"],
   "devDependencies": {},
   "repository": {
     "type": "git",
