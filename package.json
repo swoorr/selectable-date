@@ -1,14 +1,30 @@
 {
-  "name": "selectable-date",
+  "name": "@swoorr/selectable-date",
   "version": "1.0.0",
   "description": "SelectableDate has nice thinking for datepicker or birthDatePicker #vue.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name selectable-date ./src/index.js",
+    "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist"
+  ],
   "author": "Furkan Sahin",
   "license": "ISC",
   "dependencies": {
     "vue-select": "^3.11.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swoorr/selectable-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swoorr/selectable-date/issues"
+  },
+  "homepage": "https://github.com/swoorr/selectable-date#readme"
 }
