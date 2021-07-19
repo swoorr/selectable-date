@@ -1,13 +1,13 @@
 {
-  "name": "@swoorr/selectable-date",
-  "version": "1.0.0",
+  "name": "@swoorr/vue-selectable-datepicker",
+  "version": "1.0.2",
   "description": "SelectableDate has nice thinking for datepicker or birthDatePicker #vue.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name selectable-date ./src/index.js",
+    "build-library": "vue-cli-service build --target lib --name vue-selectable-datepicker ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
