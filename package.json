@@ -1,6 +1,6 @@
 {
   "name": "@swoorr/vue-selectable-datepicker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SelectableDate has nice thinking for datepicker or birthDatePicker #vue.",
   "main": "src/index.js",
   "scripts": {
@@ -18,7 +18,13 @@
   "dependencies": {
     "vue-select": "^3.11.2"
   },
-  "keywords": ["vue-select","vue","vue select date","vue select date picker","vue date picker"],
+  "keywords": [
+    "vue-select",
+    "vue",
+    "vue select date",
+    "vue select date picker",
+    "vue date picker"
+  ],
   "devDependencies": {},
   "repository": {
     "type": "git",
