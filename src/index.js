@@ -1,2 +1,2 @@
-import SelectableDate from './SelectableDate'
-export default SelectableDate
+import SelectableDatePicker from './SelectableDatePicker'
+export default SelectableDatePicker
