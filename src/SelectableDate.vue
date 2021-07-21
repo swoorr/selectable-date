@@ -78,24 +78,25 @@ export default {
       this.initDateParser();
     },
   },
-  beforeMount() {
-    for (var i = 1; i < 32; i++) this.daySelect.push(i);
-    for(i = this.max; i > this.min; i--) this.yearSelect.push(i)
-    for (i = 1; i < 13; i++) this.monthSelect.push(i);
-
-    const initDateParser = () => {
+  methods: {
+    initDateParser() {
       this.day = new Date(this.value).getDate();
       this.month = new Date(this.value).getMonth() + 1;
       this.year = new Date(this.value).getFullYear();
-    };
+    },
+  },
+  beforeMount() {
+    for (var i = 1; i < 32; i++) this.daySelect.push(i);
+    for (i = this.max; i > this.min; i--) this.yearSelect.push(i);
+    for (i = 1; i < 13; i++) this.monthSelect.push(i);
 
-    initDateParser();
+    this.initDateParser();
   },
 };
 </script>
 <style scoped>
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .flex {
   display: flex;
