@@ -77,6 +77,37 @@ export default {
       this.value = newv;
       this.initDateParser();
     },
+    day() {
+      this.$emit(
+        "input",
+        new Date(`${this.month}/${this.day}/${this.year}`).toLocaleDateString("en", {
+          month: "2-digit",
+          year: "numeric",
+
+          day: "2-digit",
+        })
+      );
+    },
+    month() {
+      this.$emit(
+        "input",
+        new Date(`${this.month}/${this.day}/${this.year}`).toLocaleDateString("en", {
+          month: "2-digit",
+          day: "2-digit",
+          year: "numeric",
+        })
+      );
+    },
+    year() {
+      this.$emit(
+        "input",
+        new Date(`${this.month}/${this.day}/${this.year}`).toLocaleDateString("en", {
+          month: "2-digit",
+          day: "2-digit",
+          year: "numeric",
+        })
+      );
+    },
   },
   methods: {
     initDateParser() {
