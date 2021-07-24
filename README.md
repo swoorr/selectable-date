@@ -7,9 +7,9 @@
 
 ## Language options
 ```
-<SelectableDate v-model="user.birthDate" lang="en" />
-<SelectableDate v-model="user.birthDate" lang="fr" />
-<SelectableDate v-model="user.birthDate" lang="de" />
-<SelectableDate v-model="user.birthDate" lang="ar" />
-<SelectableDate v-model="user.birthDate" lang="tr" />
+<SelectableDate v-model="user.birthDate" locale="en" />
+<SelectableDate v-model="user.birthDate" locale="fr" />
+<SelectableDate v-model="user.birthDate" locale="de" />
+<SelectableDate v-model="user.birthDate" locale="ar" />
+<SelectableDate v-model="user.birthDate" locale="tr" />
 ```
