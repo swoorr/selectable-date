@@ -1,6 +1,6 @@
 {
   "name": "@swoorr/vue-selectable-datepicker",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "SelectableDate has nice thinking for datepicker or birthDatePicker #vue.",
   "main": "src/index.js",
   "scripts": {
