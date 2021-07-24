@@ -3,6 +3,7 @@
 ```<SelectableDate v-model="user.birthDate" />```
 
 <img src="./ss-1.png" />
+<img src="./ss-2.png" />
 
 ## Language options
 ```
