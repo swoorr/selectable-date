@@ -120,7 +120,6 @@ export default {
     for (var i = 1; i < 32; i++) this.daySelect.push(i);
     for (i = this.max; i > this.min; i--) this.yearSelect.push(i);
     for (i = 1; i < 13; i++) this.monthSelect.push(i);
-
     this.initDateParser();
   },
 };
