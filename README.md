@@ -1,3 +1,5 @@
+⚡️ https://www.npmjs.com/package/@swoorr/vue-selectable-datepicker
+
 # Vuejs Selectable Date Picker
 
 ```<SelectableDate v-model="user.birthDate" />```
